@@ -30,6 +30,8 @@ WantedBy=default.target
 This should handle everything cleanly. In the event you need to restart the server, you can do `sudo systemctl restart batterysocket`. Now, after a restart, you can launch the i3wm Battery application and the data should be written to `/tmp/BAT0/POWER` and `/tmp/BAT0/CHARGING`.
 
 #### 3 - Polybar support
+*NOTE: Requires font-awesome*
+
 Copy the `.scripts/` directory to a place of your choosing, and add the following into your polybar configuration file:
 ```
 [module/custombattery]
