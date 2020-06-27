@@ -1,0 +1,20 @@
+{
+	"name": "i3wm Battery",
+	"description": "Runs battery in the background. Created by realSaddy",
+	"version": "1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"permissions": [
+	 "alarms"
+	],
+	"sockets": {
+		"tcp": {
+			"connect": ["localhost"]
+		}
+	},
+	"icons": { "16": "battery-16.png", "128": "battery-128.png" }
+}
