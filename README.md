@@ -39,5 +39,8 @@ tail = true
 ```
 You can then include it in your top bar (I chose the right side). After a restart, you should be able to launch your i3 container & application and the battery will be dispalyed correctly.
 
+## Limitations
+ChromeOS alarms have a minimum of one minute, so battery information can only be updated once per minute, including when a charger is plugged in. If anyone has a solution to this, feel free to create a pull request :).
+
 ## Contributors
 Created by [@realSaddy](https://github.com/realSaddy)
